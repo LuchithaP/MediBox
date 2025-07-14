@@ -2,6 +2,7 @@
 
 **MediBoX** is an IoT-enabled smart medical box built on the ESP32 microcontroller. It monitors environmental conditions, manages alarms for medication reminders, and supports remote configuration via MQTT. The system features an OLED display and push-button interface, making it ideal for elderly or chronic patients to manage their medication with ease. It is fully simulated on [Wokwi](https://wokwi.com/projects/431206882518972417) for easy testing and development.
 
+![MediBox](assets/medibox.png)
 ---
 
 ## 🧭 Table of Contents
