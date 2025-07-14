@@ -9,7 +9,6 @@
 - [Features](#features)
 - [Hardware Requirements](#hardware-requirements)
 - [Software Requirements](#software-requirements)
-- [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 
@@ -79,10 +78,63 @@
 
 ---
 
-## ⚙️ Setup Instructions
+## ▶️ Usage
 
-1. **Clone the Repository**
+- **Startup**  
+  - ESP32 connects to Wi-Fi  
+  - Syncs time via NTP  
+  - Sets servo to 30°
 
-```bash
-git clone https://github.com/your-username/medibox.git
-cd medibox
+- **Monitoring**  
+  - Samples light every 5 seconds (configurable)  
+  - Samples temperature every 120 seconds  
+  - Updates servo position accordingly
+
+- **Alarms**  
+  - Triggers at set times (default: 22:05, 22:06)  
+  - Buzzer and LED activate  
+  - Press **OK** to snooze (+5 min)  
+  - Press **Cancel** to stop
+
+- **Menu Navigation (via OLED + Buttons)**  
+  - **OK**: Enter menu  
+  - **Up/Down**: Navigate options  
+    - Set UTC  
+    - Set Alarms  
+    - Enable/Disable Alarms  
+    - View/Delete Alarms  
+  - **OK**: Select option  
+  - **Cancel**: Exit menu
+
+- **Node-RED Dashboard**  
+  - Access at `http://<node-red-ip>:1880/ui`  
+  - View real-time sensor data  
+  - Remotely configure settings
+
+---
+
+## 🖼️ Screenshots
+
+### 📊 Node-RED Dashboard
+
+Real-time sensor data and configuration controls.
+
+![Node-RED Dashboard](assets/node-red-dashboard.png)
+
+---
+
+### 💡 Wokwi Simulation
+
+ESP32 circuit and code in Wokwi.
+
+![Wokwi Simulation](assets/wokwi-simulation.png)
+
+---
+
+### 🔁 Node-RED Connections
+
+MQTT flow for data and configuration.
+
+![Node-RED Flow](assets/node-red-flow.png)
+
+
