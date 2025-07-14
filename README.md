@@ -119,7 +119,7 @@
 
 Real-time sensor data and configuration controls.
 
-![Node-RED Dashboard](assets/node-red-dashboard.png)
+![Node-RED Dashboard](assets/dashboard.png)
 
 ---
 
@@ -127,7 +127,7 @@ Real-time sensor data and configuration controls.
 
 ESP32 circuit and code in Wokwi.
 
-![Wokwi Simulation](assets/wokwi-simulation.png)
+![Wokwi Simulation](assets/wokwi.png)
 
 ---
 
@@ -135,6 +135,6 @@ ESP32 circuit and code in Wokwi.
 
 MQTT flow for data and configuration.
 
-![Node-RED Flow](assets/node-red-flow.png)
+![Node-RED Flow](mqtt.png)
 
 
