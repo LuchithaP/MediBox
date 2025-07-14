@@ -136,6 +136,6 @@ ESP32 circuit and code in Wokwi.
 MQTT flow for data and configuration.
 
 ![Node-RED Flow](mqtt.png)
-
+---
 
 
